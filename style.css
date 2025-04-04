@@ -1,20 +1,16 @@
 body{
   background-color: rgb(86, 218, 147);
 }
-
-
 .title{
-    text-align: center;
-    color: rgb(223, 153, 39);
-    margin-left: 40%;
-    margin-right: 60%;
+  text-align: center;
+  color: rgb(223, 153, 39);
+  margin-left: 40%;
+  margin-right: 60%;
 }
-
-
 #output {
   margin-left: 25%;
-  margin-right: 60%;
-  width: 40%;
+  margin-right: 40%;
+  width: 20%;
   height: 30px;
   text-align: right;
   margin-top: 10px;
@@ -23,36 +19,34 @@ body{
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.562);
 } 
-
-#buttons{
-
-    margin-left: 25%;
-    margin-right: 25%;
-    
+#output:hover {
+  background-color: rgba(34, 13, 225, 0.333);
+  cursor: pointer;
 }
-
-
-
+#buttons{
+  margin-left: 25%;
+  margin-right: 25%; 
+}
 button{ 
-    font: bold 84% ,helvetica,sans-serif; 
-    background-color: #9da5a0; 
-    border: 3px solid rgb(190, 224, 97);
-    padding: 16px 20px;
-    font-size: 16px;
-    border-radius:90px;
-    margin: 8px 10px;
-    transition: ease-in-out 0.1s all;
-    border-radius: 10px;
-    min-width: 50px;
-    min-height: 50px;
-  } 
-  .signs{
+  font: bold 84% ,helvetica,sans-serif; 
+  background-color: #9da5a0; 
+  border: 3px solid rgb(190, 224, 97);
+  padding: 16px 20px;
+  font-size: 16px;
+  border-radius:90px;
+  margin: 8px 10px;
+  transition: ease-in-out 0.1s all;
+  border-radius: 10px;
+  min-width: 50px;
+  min-height: 50px;
+} 
+.signs{
   color: rgb(220, 95, 41);
   background-color: rgba(202, 0, 0, 0.089);
-  }
-  .signs:hover {
-    background-color: rgba(0, 0, 0, 0.089);
-    cursor: pointer;
+}
+.signs:hover {
+  background-color: rgba(34, 13, 225, 0.333);
+  cursor: pointer;
 }
 
  
